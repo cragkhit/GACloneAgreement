@@ -29,7 +29,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private String[] nicadMinLine = { "5", "6", "7" };
 	private String[] nicadMaxLine = { "100", "200", "300", "400", "500", "600", "700", "800", "900", "1000" };
 	private String[] nicadUpi = { "0.0", "0.1", "0.2", "0.3" };
-	private String[] nicadBlind = { "0", "1" };
+	private String[] nicadBlind = { "blind", "consistent", "none" };
 	private String[] nicadAbstract = { "none" };
 
 	private String[] simianMinLine = { "5", "6", "7" };
@@ -129,6 +129,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 					simianIM[ind2.genome[21]] , 
 					simianIVN[ind2.genome[22]] ,
 					simianBP[ind2.genome[23]] ,
+					simianBSB[ind2.genome[24]] ,
 					simianMinLine[ind2.genome[10]]);
 			pb.directory(new File(HOMEDIR));
 			Process p = pb.start();
