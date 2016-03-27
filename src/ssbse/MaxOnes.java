@@ -13,26 +13,26 @@ import ec.vector.*;
 
 public class MaxOnes extends Problem implements SimpleProblemForm {
 	private String[] ccfxMinToken = { 
-			"10", "20", 30, 40, 50, 60, 70, 80, 90, 100, 
-			"110", "120", 130, 140, 150, 160, 170, 180, 190, 200, 
-			"210", "220", 230, 240, 250, 260, 270, 280, 290, 300 };
+			"10", "20", "30", "40", "50", "60", "70", "80", "90", "100", 
+			"110", "120", "130", "140", "150", "160", "170", "180", "190", "200", 
+			"210", "220", "230", "240", "250", "260", "270", "280", "290", "300" };
 	private String[] ccfxTKS = { 
-			1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
-			11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
-			30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 
-			160, 180, 200, 220, 240, 260, 280, 300 };
+			"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+			"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
+			"30", "40", "50", "60", "70", "80", "90", "100", "120", "140", 
+			"160", "180", "200", "220", "240", "260", "280", "300" };
 	
-	private String[] deckardMinToken = { 30, 50 };
-	private String[] deckardStride = { 0, 2 };
-	private String[] deckardSim = { 0.95, 1.00 };
+	private String[] deckardMinToken = { "30", "50" };
+	private String[] deckardStride = { "0", "2" };
+	private String[] deckardSim = { "0.95", "1.00" };
 	
-	private String[] nicadMinLine = { 5, 6, 7 };
-	private String[] nicadMaxLine = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
-	private String[] nicadUpi = { 0.0, 0.1, 0.2, 0.3 };
-	private String[] nicadBlind = { 0, 1 };
+	private String[] nicadMinLine = { "5", "6", "7" };
+	private String[] nicadMaxLine = { "100", "200", "300", "400", "500", "600", "700", "800", "900", "1000" };
+	private String[] nicadUpi = { "0.0", "0.1", "0.2", "0.3" };
+	private String[] nicadBlind = { "0", "1" };
 	private String[] nicadAbstract = { "none" };
 
-	private String[] simianMinLine = { 5, 6, 7 };
+	private String[] simianMinLine = { "5", "6", "7" };
 	private String[] simianICB = { "true", "false" };
 	private String[] simianID = { "true", "false" };
 	private String[] simianIDC = { "true", "false" };
@@ -99,7 +99,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 				+ simianIM[ind2.genome[21]] + "," 
 				+ simianIVN[ind2.genome[22]] + ","
 				+ simianBP[ind2.genome[23]] + ","
-				+ simianBP[ind2.genome[24]]
+				+ simianBSB[ind2.genome[24]]
 				);
 
 		try {
