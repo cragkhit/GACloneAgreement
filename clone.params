@@ -1,7 +1,7 @@
 breedthreads	= 1
 evalthreads	= 1
-seed.0		= -1288591512
-# seed.0 = time 
+# seed.0		= -1288591512
+seed.0 = time 
 
 state		= ec.simple.SimpleEvolutionState
 
@@ -28,7 +28,7 @@ pop.subpop.0.duplicate-retries 	= 0
 pop.subpop.0.species		= ec.vector.IntegerVectorSpecies
 pop.subpop.0.species.ind	= ec.vector.IntegerVectorIndividual
 pop.subpop.0.species.fitness = ec.simple.SimpleFitness
-pop.subpop.0.species.genome-size	= 10
+pop.subpop.0.species.genome-size	= 25
 pop.subpop.0.species.crossover-type	= one
 pop.subpop.0.species.mutation-type  = reset
 pop.subpop.0.species.mutation-prob	= 0.1
@@ -37,26 +37,60 @@ pop.subpop.0.species.mutation-prob	= 0.1
 pop.subpop.0.species.min-gene = 0
 pop.subpop.0.species.max-gene = 99
 # First gene
+# ccfx
 pop.subpop.0.species.min-gene.0	= 0
-pop.subpop.0.species.max-gene.0 = 1
+pop.subpop.0.species.max-gene.0 = 29
 pop.subpop.0.species.min-gene.1	= 0
-pop.subpop.0.species.max-gene.1 = 1
+pop.subpop.0.species.max-gene.1 = 37
+# deckard
 pop.subpop.0.species.min-gene.2	= 0
 pop.subpop.0.species.max-gene.2 = 1
 pop.subpop.0.species.min-gene.3	= 0
 pop.subpop.0.species.max-gene.3 = 1
 pop.subpop.0.species.min-gene.4	= 0
 pop.subpop.0.species.max-gene.4 = 1
+# NiCad
 pop.subpop.0.species.min-gene.5	= 0
-pop.subpop.0.species.max-gene.5 = 1
+pop.subpop.0.species.max-gene.5 = 2
 pop.subpop.0.species.min-gene.6	= 0
-pop.subpop.0.species.max-gene.6 = 6
+pop.subpop.0.species.max-gene.6 = 9
 pop.subpop.0.species.min-gene.7	= 0
-pop.subpop.0.species.max-gene.7 = 2
+pop.subpop.0.species.max-gene.7 = 3
 pop.subpop.0.species.min-gene.8	= 0
-pop.subpop.0.species.max-gene.8 = 4
-pop.subpop.0.species.min-gene.9	= 2
-pop.subpop.0.species.max-gene.9 = 5
+pop.subpop.0.species.max-gene.8 = 1
+# simian
+pop.subpop.0.species.min-gene.9	= 0
+pop.subpop.0.species.max-gene.9 = 2
+pop.subpop.0.species.min-gene.10 = 0
+pop.subpop.0.species.max-gene.10 = 1
+pop.subpop.0.species.min-gene.11 = 0
+pop.subpop.0.species.max-gene.11 = 1
+pop.subpop.0.species.min-gene.12 = 0
+pop.subpop.0.species.max-gene.12 = 1
+pop.subpop.0.species.min-gene.13 = 0
+pop.subpop.0.species.max-gene.13 = 1
+pop.subpop.0.species.min-gene.14 = 0
+pop.subpop.0.species.max-gene.14 = 1
+pop.subpop.0.species.min-gene.15 = 0
+pop.subpop.0.species.max-gene.15 = 1
+pop.subpop.0.species.min-gene.16 = 0
+pop.subpop.0.species.max-gene.16 = 1
+pop.subpop.0.species.min-gene.17 = 0
+pop.subpop.0.species.max-gene.17 = 1
+pop.subpop.0.species.min-gene.18 = 0
+pop.subpop.0.species.max-gene.18 = 1
+pop.subpop.0.species.min-gene.19 = 0
+pop.subpop.0.species.max-gene.19 = 1
+pop.subpop.0.species.min-gene.20 = 0
+pop.subpop.0.species.max-gene.20 = 1
+pop.subpop.0.species.min-gene.21 = 0
+pop.subpop.0.species.max-gene.21 = 1
+pop.subpop.0.species.min-gene.22 = 0
+pop.subpop.0.species.max-gene.22 = 1
+pop.subpop.0.species.min-gene.23 = 0
+pop.subpop.0.species.max-gene.23 = 1
+pop.subpop.0.species.min-gene.24 = 0
+pop.subpop.0.species.max-gene.24 = 1
 
 pop.subpop.0.species.pipe			= ec.vector.breed.VectorMutationPipeline
 pop.subpop.0.species.pipe.source.0		= ec.vector.breed.VectorCrossoverPipeline
@@ -71,4 +105,4 @@ select.tournament.size		= 2
 
 breed.elite-fraction.0 = 0.25
 
-eval.problem		= es.dfr.paramsearch.DFR
+eval.problem		= ssbse.MaxOnes

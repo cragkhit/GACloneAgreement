@@ -12,19 +12,46 @@ import ec.util.*;
 import ec.vector.*;
 
 public class MaxOnes extends Problem implements SimpleProblemForm {
-	// ind is the individual to be evaluated.
-	// We're given state and threadnum primarily so we
-	// have access to a random number generator
-	// (in the form: state.random[threadnum] )
-	// and to the output facility
-	private String[] basicModelArr = { "be", "d", "g", "if", "in", "ine", "p" };
-	private String[] afterEffectArr = { "no", "b", "l" };
-	private String[] dfrNormalizationArr = { "no", "h1", "h2", "h3", "z" };
-	private static String HOMEDIR="/Users/Chaiyong/Documents/es_exp/";
-	private static String SCRIPT="scripts/eval_dfr.sh";
-	private static String INPUTDIR="methods";
-	private static String INDEXNAME="dfr";
-	private static String OUTPUTDIR="eval_dfr";
+	private int[] ccfxMinToken = { 
+			10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 
+			110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 
+			210, 220, 230, 240, 250, 260, 270, 280, 290, 300 };
+	private int[] ccfxTKS = { 
+			1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+			11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
+			30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 
+			160, 180, 200, 220, 240, 260, 280, 300 };
+	
+	private int[] deckardMinToken = { 30, 50 };
+	private int[] deckardStride = { 0, 2 };
+	private double[] deckardSim = { 0.95, 1.00 };
+	
+	private int[] nicadMinLine = { 5, 6, 7 };
+	private int[] nicadMaxLine = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
+	private double[] nicadUpi = { 0.0, 0.1, 0.2, 0.3 };
+	private int[] nicadBlind = { 0, 1 };
+	private String[] nicadAbstract = { "none" };
+
+	private int[] simianMinLine = { 5, 6, 7 };
+	private String[] simianICB = { "true", "false" };
+	private String[] simianID = { "true", "false" };
+	private String[] simianIDC = { "true", "false" };
+	private String[] simianIS = { "true", "false" };
+	private String[] simianISC = { "true", "false" };
+	private String[] simianIN = { "true", "false" };
+	private String[] simianIC = { "true", "false" };
+	private String[] simianICC = { "true", "false" };
+	private String[] simianIL = { "true", "false" };
+	private String[] simianISN = { "true", "false" };
+	private String[] simianIM = { "true", "false" };
+	private String[] simianIVN = { "true", "false" };
+	private String[] simianBP = { "true", "false" };
+	private String[] simianBSB = { "true", "false" };
+	
+	private static String HOMEDIR="/home/cragkhit/ssbse2016";
+	private static String SCRIPT="scripts/run.sh";
+	private static String INPUTDIR="/home/cragkhit/ssbse2016/systems/mockito-master";
+	private static String OUTPUTDIR="/home/cragkhit/ssbse2016/clones";
 
 	public void evaluate(final EvolutionState state, final Individual ind, final int subpopulation,
 			final int threadnum) {
@@ -38,29 +65,68 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 		 */
 		double fitness = 0.0;
 		
-		String normMode = "";
-		if (ind2.genome[0]==1) normMode += "d"; 
-		if (ind2.genome[1]==1) normMode += "j";
-		if (ind2.genome[2]==1) normMode += "k";
-		if (ind2.genome[3]==1) normMode += "p";
-		if (ind2.genome[4]==1) normMode += "s";
-		if (ind2.genome[5]==1) normMode += "w";
-		
-		String basicModel = basicModelArr[ind2.genome[6]];
-		String afterEffect = afterEffectArr[ind2.genome[7]];
-		String dfrNormalization = dfrNormalizationArr[ind2.genome[8]];
-		int sizeOfN = ind2.genome[9] + 1;
-		
-		System.out.print("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
+		System.out.println("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
 				+ ind2.genome[2] + "," + ind2.genome[3] + "," + ind2.genome[4] + "," 
-				+ ind2.genome[5] + "|" + ind2.genome[6] + "|" + ind2.genome[7] + "|" 
-				+ ind2.genome[8]  + "|" + ind2.genome[9] + "] = ");
-		System.out.println(sizeOfN + "," + normMode + "," + basicModel + "," + afterEffect + "," + dfrNormalization);
+				+ ind2.genome[5] + "," + ind2.genome[6] + "," + ind2.genome[7] + "," 
+				+ ind2.genome[8] + "," + ind2.genome[9] + "," + ind2.genome[10] + "," 
+				+ ind2.genome[11] + "," + ind2.genome[12] + "," + ind2.genome[13] + ","
+				+ ind2.genome[14] + "," + ind2.genome[15] + "," + ind2.genome[16] + ","
+				+ ind2.genome[17] + "," + ind2.genome[18] + "," + ind2.genome[19] + ","
+				+ ind2.genome[20] + "," + ind2.genome[21] + "," + ind2.genome[22] + ","
+				+ ind2.genome[23] + "," + ind2.genome[24] + "]");
+		System.out.println(
+				ccfxMinToken[ind2.genome[0]] + "," 
+				+ ccfxTKS[ind2.genome[1]] + "\n" 
+				+ deckardMinToken[ind2.genome[2]] + ","
+				+ deckardStride[ind2.genome[3]] + ","
+				+ deckardSim[ind2.genome[4]] + "\n" 
+				+ nicadMinLine[ind2.genome[5]] + "," 
+				+ nicadMaxLine[ind2.genome[6]] + "," 
+				+ nicadUpi[ind2.genome[7]] + "," 
+				+ nicadBlind[ind2.genome[8]] + "," 
+				+ nicadAbstract[0] + "\n" 
+				+ simianMinLine[ind2.genome[10]] + "," 
+				+ simianICB[ind2.genome[11]] + ","
+				+ simianID[ind2.genome[12]] + "," 
+				+ simianIDC[ind2.genome[13]] + "," 
+				+ simianIS[ind2.genome[14]] + "," 
+				+ simianISC[ind2.genome[15]] + "," 
+				+ simianIN[ind2.genome[16]] + ","
+				+ simianIC[ind2.genome[17]] + "," 
+				+ simianICC[ind2.genome[18]] + "," 
+				+ simianIL[ind2.genome[19]] + "," 
+				+ simianISN[ind2.genome[20]] + "," 
+				+ simianIM[ind2.genome[21]] + "," 
+				+ simianIVN[ind2.genome[22]] + ","
+				+ simianBP[ind2.genome[23]] + ","
+				+ simianBP[ind2.genome[24]]
+				);
 
 		try {
-			ProcessBuilder pb = new ProcessBuilder(SCRIPT, INPUTDIR, INDEXNAME,
-					String.valueOf(sizeOfN), normMode, OUTPUTDIR, basicModel, 
-					afterEffect, dfrNormalization, HOMEDIR);
+			ProcessBuilder pb = new ProcessBuilder(SCRIPT, ccfxMinToken[ind2.genome[0]] + " " 
+					+ ccfxTKS[ind2.genome[1]] + " " 
+					+ deckardMinToken[ind2.genome[2]] + " "
+					+ deckardStride[ind2.genome[3]] + " "
+					+ deckardSim[ind2.genome[4]] + " " 
+					+ nicadMinLine[ind2.genome[5]] + " " 
+					+ nicadMaxLine[ind2.genome[6]] + " " 
+					+ nicadUpi[ind2.genome[7]] + " " 
+					+ nicadBlind[ind2.genome[8]] + " " 
+					+ nicadAbstract[0] + " " 
+					+ simianMinLine[ind2.genome[10]] + " " 
+					+ simianICB[ind2.genome[11]] + " "
+					+ simianID[ind2.genome[12]] + " " 
+					+ simianIDC[ind2.genome[13]] + " " 
+					+ simianIS[ind2.genome[14]] + " " 
+					+ simianISC[ind2.genome[15]] + " " 
+					+ simianIN[ind2.genome[16]] + " "
+					+ simianIC[ind2.genome[17]] + " " 
+					+ simianICC[ind2.genome[18]] + " " 
+					+ simianIL[ind2.genome[19]] + " " 
+					+ simianISN[ind2.genome[20]] + " " 
+					+ simianIM[ind2.genome[21]] + " " 
+					+ simianIVN[ind2.genome[22]] + " "
+					+ simianBP[ind2.genome[23]]);
 			pb.directory(new File(HOMEDIR));
 			Process p = pb.start();
 
