@@ -1,4 +1,4 @@
-package es.dfr.paramsearch;
+package ssbse;
 
 import java.io.BufferedReader;
 import java.io.File;
