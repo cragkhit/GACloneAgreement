@@ -12,27 +12,27 @@ import ec.util.*;
 import ec.vector.*;
 
 public class MaxOnes extends Problem implements SimpleProblemForm {
-	private int[] ccfxMinToken = { 
-			10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 
-			110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 
-			210, 220, 230, 240, 250, 260, 270, 280, 290, 300 };
-	private int[] ccfxTKS = { 
+	private String[] ccfxMinToken = { 
+			"10", "20", 30, 40, 50, 60, 70, 80, 90, 100, 
+			"110", "120", 130, 140, 150, 160, 170, 180, 190, 200, 
+			"210", "220", 230, 240, 250, 260, 270, 280, 290, 300 };
+	private String[] ccfxTKS = { 
 			1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
 			11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
 			30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 
 			160, 180, 200, 220, 240, 260, 280, 300 };
 	
-	private int[] deckardMinToken = { 30, 50 };
-	private int[] deckardStride = { 0, 2 };
-	private double[] deckardSim = { 0.95, 1.00 };
+	private String[] deckardMinToken = { 30, 50 };
+	private String[] deckardStride = { 0, 2 };
+	private String[] deckardSim = { 0.95, 1.00 };
 	
-	private int[] nicadMinLine = { 5, 6, 7 };
-	private int[] nicadMaxLine = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
-	private double[] nicadUpi = { 0.0, 0.1, 0.2, 0.3 };
-	private int[] nicadBlind = { 0, 1 };
+	private String[] nicadMinLine = { 5, 6, 7 };
+	private String[] nicadMaxLine = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
+	private String[] nicadUpi = { 0.0, 0.1, 0.2, 0.3 };
+	private String[] nicadBlind = { 0, 1 };
 	private String[] nicadAbstract = { "none" };
 
-	private int[] simianMinLine = { 5, 6, 7 };
+	private String[] simianMinLine = { 5, 6, 7 };
 	private String[] simianICB = { "true", "false" };
 	private String[] simianID = { "true", "false" };
 	private String[] simianIDC = { "true", "false" };
@@ -103,30 +103,33 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 				);
 
 		try {
-			ProcessBuilder pb = new ProcessBuilder(SCRIPT, ccfxMinToken[ind2.genome[0]] + " " 
-					+ ccfxTKS[ind2.genome[1]] + " " 
-					+ deckardMinToken[ind2.genome[2]] + " "
-					+ deckardStride[ind2.genome[3]] + " "
-					+ deckardSim[ind2.genome[4]] + " " 
-					+ nicadMinLine[ind2.genome[5]] + " " 
-					+ nicadMaxLine[ind2.genome[6]] + " " 
-					+ nicadUpi[ind2.genome[7]] + " " 
-					+ nicadBlind[ind2.genome[8]] + " " 
-					+ nicadAbstract[0] + " " 
-					+ simianMinLine[ind2.genome[10]] + " " 
-					+ simianICB[ind2.genome[11]] + " "
-					+ simianID[ind2.genome[12]] + " " 
-					+ simianIDC[ind2.genome[13]] + " " 
-					+ simianIS[ind2.genome[14]] + " " 
-					+ simianISC[ind2.genome[15]] + " " 
-					+ simianIN[ind2.genome[16]] + " "
-					+ simianIC[ind2.genome[17]] + " " 
-					+ simianICC[ind2.genome[18]] + " " 
-					+ simianIL[ind2.genome[19]] + " " 
-					+ simianISN[ind2.genome[20]] + " " 
-					+ simianIM[ind2.genome[21]] + " " 
-					+ simianIVN[ind2.genome[22]] + " "
-					+ simianBP[ind2.genome[23]]);
+			ProcessBuilder pb = new ProcessBuilder(SCRIPT, 
+                    INPUTDIR ,
+                    OUTPUTDIR ,
+                    ccfxMinToken[ind2.genome[0]] , 
+					ccfxTKS[ind2.genome[1]] , 
+					deckardMinToken[ind2.genome[2]] ,
+					deckardStride[ind2.genome[3]] ,
+					deckardSim[ind2.genome[4]] , 
+					nicadMinLine[ind2.genome[5]] , 
+					nicadMaxLine[ind2.genome[6]] , 
+					nicadUpi[ind2.genome[7]] , 
+					nicadBlind[ind2.genome[8]] , 
+					nicadAbstract[0] , 
+					simianICB[ind2.genome[11]] ,
+					simianID[ind2.genome[12]] , 
+					simianIDC[ind2.genome[13]] , 
+					simianIS[ind2.genome[14]] , 
+					simianISC[ind2.genome[15]] , 
+					simianIN[ind2.genome[16]] ,
+					simianIC[ind2.genome[17]] , 
+					simianICC[ind2.genome[18]] , 
+					simianIL[ind2.genome[19]] , 
+					simianISN[ind2.genome[20]] , 
+					simianIM[ind2.genome[21]] , 
+					simianIVN[ind2.genome[22]] ,
+					simianBP[ind2.genome[23]] ,
+					simianMinLine[ind2.genome[10]]);
 			pb.directory(new File(HOMEDIR));
 			Process p = pb.start();
 
