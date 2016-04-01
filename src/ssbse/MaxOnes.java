@@ -4,14 +4,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Map;
 
 import ec.*;
 import ec.simple.*;
-import ec.util.*;
 import ec.vector.*;
 
 public class MaxOnes extends Problem implements SimpleProblemForm {
+	private static final long serialVersionUID = 1L;
 	private String[] ccfxMinToken = { 
 			"10", "20", "30", "40", "50", "60", "70", "80", "90", "100", 
 			"110", "120", "130", "140", "150", "160", "170", "180", "190", "200", 
