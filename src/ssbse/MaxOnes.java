@@ -22,13 +22,14 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 			"160", "180", "200", "220", "240", "260", "280", "300" };
 	
 	private String[] deckardMinToken = { "30", "50" };
-	private String[] deckardStride = { "0", "2" };
-	private String[] deckardSim = { "0.95", "1.00" };
+	private String[] deckardStride = { "0", "2", "4", "5", "8", "16", "inf"};
+	private String[] deckardSim = { "0.9", "0.95", "1.00" };
 	
-	private String[] nicadMinLine = { "5", "6", "7" };
-	private String[] nicadMaxLine = { "100", "200", "300", "400", "500", "600", "700", "800", "900", "1000" };
+	private String[] nicadMinLine = { "5", "6", "7", "8", "9", "10" };
+	private String[] nicadMaxLine = { "100", "200", "300", "400", "500", 
+			"600", "700", "800", "900", "1000", "2000", "2500" };
 	private String[] nicadUpi = { "0.0", "0.1", "0.2", "0.3" };
-	private String[] nicadBlind = { "blind", "consistent", "none" };
+	private String[] nicadBlind = { "none", "blind", "consistent" };
 	private String[] nicadAbstract = { "none" };
 
 	private String[] simianMinLine = { "5", "6", "7" };
