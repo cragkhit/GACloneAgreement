@@ -65,7 +65,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 		 */
 		double fitness = 0.0;
 		
-		System.out.println("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
+		/*System.out.println("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
 				+ ind2.genome[2] + "," + ind2.genome[3] + "," + ind2.genome[4] + "," 
 				+ ind2.genome[5] + "," + ind2.genome[6] + "," + ind2.genome[7] + "," 
 				+ ind2.genome[8] + "," + ind2.genome[9] + "," + ind2.genome[10] + "," 
@@ -100,7 +100,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 				+ simianIVN[ind2.genome[22]] + ","
 				+ simianBP[ind2.genome[23]] + ","
 				+ simianBSB[ind2.genome[24]]
-				);
+				);*/
 
 		try {
 			ProcessBuilder pb = new ProcessBuilder(SCRIPT, 
