@@ -1,7 +1,8 @@
 breedthreads	= 1
-evalthreads	= 1
-# seed.0		= -1288591512
+evalthreads	= 2
+ #seed.0		= -1288591512
 seed.0 = time 
+seed.1 = time 
 
 state		= ec.simple.SimpleEvolutionState
 
@@ -13,7 +14,7 @@ eval		= ec.simple.SimpleEvaluator
 stat		= ec.simple.SimpleStatistics
 exch		= ec.simple.SimpleExchanger
 
-generations		= 50
+generations		= 4
 quit-on-run-complete	= true
 checkpoint		= false
 checkpoint-prefix	= ec
@@ -24,6 +25,7 @@ stat.file		= $out.stat
 pop.subpops		= 1
 pop.subpop.0		= ec.Subpopulation
 pop.subpop.0.size 		= 6
+pop.subpop.0.file=pop.in
 pop.subpop.0.duplicate-retries 	= 0
 pop.subpop.0.species		= ec.vector.IntegerVectorSpecies
 pop.subpop.0.species.ind	= ec.vector.IntegerVectorIndividual

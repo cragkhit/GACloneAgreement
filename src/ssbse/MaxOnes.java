@@ -47,10 +47,15 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private String[] simianBP = { "true", "false" };
 	private String[] simianBSB = { "true", "false" };
 	
-	private static String HOMEDIR="/home/cragkhit/ssbse2016";
+	//private static String HOMEDIR="/home/cragkhit/ssbse2016";
+	//private static String SCRIPT="scripts/run.sh";
+	//private static String INPUTDIR="/home/cragkhit/ssbse2016/systems/mockito-master";
+	//private static String OUTPUTDIR="/home/cragkhit/ssbse2016/clones";
+
+	private static String HOMEDIR="/home/mhepaixao/ssbse2016";
 	private static String SCRIPT="scripts/run.sh";
-	private static String INPUTDIR="/home/cragkhit/ssbse2016/systems/mockito-master";
-	private static String OUTPUTDIR="/home/cragkhit/ssbse2016/clones";
+	private static String INPUTDIR="/home/mhepaixao/ssbse2016/systems/mockito-master";
+	private static String OUTPUTDIR="/home/mhepaixao/ssbse2016/clones";
 
 	public void evaluate(final EvolutionState state, final Individual ind, final int subpopulation,
 			final int threadnum) {
