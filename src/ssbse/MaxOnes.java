@@ -28,9 +28,9 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private String[] nicadMinLine = { "5", "6", "7", "8", "9", "10" };
 	private String[] nicadMaxLine = { "100", "200", "300", "400", "500", 
 			"600", "700", "800", "900", "1000", "2000", "2500" };
-	private String[] nicadUpi = { "0.0", "0.1", "0.2", "0.3" };
+	private String[] nicadUpi = { "0.00", "0.10", "0.20", "0.30" };
 	private String[] nicadBlind = { "none", "blind", "consistent" };
-	private String[] nicadAbstract = { "none" };
+	private String[] nicadAbstract = { "none", "block", "declaration", "statement", "expression", "condition", "literal" };
 
 	private String[] simianMinLine = { "5", "6", "7" };
 	private String[] simianICB = { "true", "false" };
