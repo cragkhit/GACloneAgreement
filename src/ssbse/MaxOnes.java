@@ -70,42 +70,42 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 		 */
 		double fitness = 0.0;
 		
-		/*System.out.println("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
-				+ ind2.genome[2] + "," + ind2.genome[3] + "," + ind2.genome[4] + "," 
-				+ ind2.genome[5] + "," + ind2.genome[6] + "," + ind2.genome[7] + "," 
-				+ ind2.genome[8] + "," + ind2.genome[9] + "," + ind2.genome[10] + "," 
-				+ ind2.genome[11] + "," + ind2.genome[12] + "," + ind2.genome[13] + ","
-				+ ind2.genome[14] + "," + ind2.genome[15] + "," + ind2.genome[16] + ","
-				+ ind2.genome[17] + "," + ind2.genome[18] + "," + ind2.genome[19] + ","
-				+ ind2.genome[20] + "," + ind2.genome[21] + "," + ind2.genome[22] + ","
-				+ ind2.genome[23] + "," + ind2.genome[24] + "]");
-		System.out.println(
-				ccfxMinToken[ind2.genome[0]] + "," 
-				+ ccfxTKS[ind2.genome[1]] + "\n" 
-				+ deckardMinToken[ind2.genome[2]] + ","
-				+ deckardStride[ind2.genome[3]] + ","
-				+ deckardSim[ind2.genome[4]] + "\n" 
-				+ nicadMinLine[ind2.genome[5]] + "," 
-				+ nicadMaxLine[ind2.genome[6]] + "," 
-				+ nicadUpi[ind2.genome[7]] + "," 
-				+ nicadBlind[ind2.genome[8]] + "," 
-				+ nicadAbstract[0] + "\n" 
-				+ simianMinLine[ind2.genome[10]] + "," 
-				+ simianICB[ind2.genome[11]] + ","
-				+ simianID[ind2.genome[12]] + "," 
-				+ simianIDC[ind2.genome[13]] + "," 
-				+ simianIS[ind2.genome[14]] + "," 
-				+ simianISC[ind2.genome[15]] + "," 
-				+ simianIN[ind2.genome[16]] + ","
-				+ simianIC[ind2.genome[17]] + "," 
-				+ simianICC[ind2.genome[18]] + "," 
-				+ simianIL[ind2.genome[19]] + "," 
-				+ simianISN[ind2.genome[20]] + "," 
-				+ simianIM[ind2.genome[21]] + "," 
-				+ simianIVN[ind2.genome[22]] + ","
-				+ simianBP[ind2.genome[23]] + ","
-				+ simianBSB[ind2.genome[24]]
-				);*/
+//		System.out.println("[" + ind2.genome[0] + "," + ind2.genome[1] + "," 
+//				+ ind2.genome[2] + "," + ind2.genome[3] + "," + ind2.genome[4] + "," 
+//				+ ind2.genome[5] + "," + ind2.genome[6] + "," + ind2.genome[7] + "," 
+//				+ ind2.genome[8] + "," + ind2.genome[9] + "," + ind2.genome[10] + "," 
+//				+ ind2.genome[11] + "," + ind2.genome[12] + "," + ind2.genome[13] + ","
+//				+ ind2.genome[14] + "," + ind2.genome[15] + "," + ind2.genome[16] + ","
+//				+ ind2.genome[17] + "," + ind2.genome[18] + "," + ind2.genome[19] + ","
+//				+ ind2.genome[20] + "," + ind2.genome[21] + "," + ind2.genome[22] + ","
+//				+ ind2.genome[23] + "," + ind2.genome[24] + "]");
+//		System.out.println(
+//				ccfxMinToken[ind2.genome[0]] + "," 
+//				+ ccfxTKS[ind2.genome[1]] + "\n" 
+//				+ deckardMinToken[ind2.genome[2]] + ","
+//				+ deckardStride[ind2.genome[3]] + ","
+//				+ deckardSim[ind2.genome[4]] + "\n" 
+//				+ nicadMinLine[ind2.genome[5]] + "," 
+//				+ nicadMaxLine[ind2.genome[6]] + "," 
+//				+ nicadUpi[ind2.genome[7]] + "," 
+//				+ nicadBlind[ind2.genome[8]] + "," 
+//				+ nicadAbstract[ind2.genome[9]] + "\n" 
+//				+ simianMinLine[ind2.genome[10]] + "," 
+//				+ simianICB[ind2.genome[11]] + ","
+//				+ simianID[ind2.genome[12]] + "," 
+//				+ simianIDC[ind2.genome[13]] + "," 
+//				+ simianIS[ind2.genome[14]] + "," 
+//				+ simianISC[ind2.genome[15]] + "," 
+//				+ simianIN[ind2.genome[16]] + ","
+//				+ simianIC[ind2.genome[17]] + "," 
+//				+ simianICC[ind2.genome[18]] + "," 
+//				+ simianIL[ind2.genome[19]] + "," 
+//				+ simianISN[ind2.genome[20]] + "," 
+//				+ simianIM[ind2.genome[21]] + "," 
+//				+ simianIVN[ind2.genome[22]] + ","
+//				+ simianBP[ind2.genome[23]] + ","
+//				+ simianBSB[ind2.genome[24]]
+//				);
 
 		try {
 			ProcessBuilder pb = new ProcessBuilder(SCRIPT, 
@@ -120,7 +120,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 					nicadMaxLine[ind2.genome[6]] , 
 					nicadUpi[ind2.genome[7]] , 
 					nicadBlind[ind2.genome[8]] , 
-					nicadAbstract[0] , 
+					nicadAbstract[ind2.genome[9]] , 
 					simianICB[ind2.genome[11]] ,
 					simianID[ind2.genome[12]] , 
 					simianIDC[ind2.genome[13]] , 

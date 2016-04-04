@@ -36,7 +36,7 @@ public class InitialPopulationGenerator {
 		String line = null;
 
 		try{
-			BufferedReader reader = new BufferedReader(new FileReader(new File("../" + configFileName)));
+			BufferedReader reader = new BufferedReader(new FileReader(new File(configFileName)));
 			
 			while(reader.ready()){
 				line = reader.readLine();
@@ -66,7 +66,7 @@ public class InitialPopulationGenerator {
 		int[] individualGenome = null;
 
 		try{
-			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("../pop.in")));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("pop.in")));
 			
 			writer.write("Number of Individuals: i" + individualsFitness.size() + "|\n");
 			
@@ -77,6 +77,7 @@ public class InitialPopulationGenerator {
 				writer.write("Evaluated: T\n");
 				writer.write("Fitness: d|" + individualsFitness.get(i) + "|\n");
 				
+				writer.write("i" + individualGenome.length + "|");
 				for(int j = 0; j < individualGenome.length; j++){
 					writer.write("i" + individualGenome[j] + "|");
 				}

@@ -1,8 +1,7 @@
 breedthreads	= 1
-evalthreads	= 2
+evalthreads	= 1
  #seed.0		= -1288591512
 seed.0 = time 
-seed.1 = time 
 
 state		= ec.simple.SimpleEvolutionState
 
@@ -48,23 +47,23 @@ pop.subpop.0.species.max-gene.1 = 37
 pop.subpop.0.species.min-gene.2	= 0
 pop.subpop.0.species.max-gene.2 = 1
 pop.subpop.0.species.min-gene.3	= 0
-pop.subpop.0.species.max-gene.3 = 1
+pop.subpop.0.species.max-gene.3 = 7
 pop.subpop.0.species.min-gene.4	= 0
-pop.subpop.0.species.max-gene.4 = 1
+pop.subpop.0.species.max-gene.4 = 2
 # NiCad
 pop.subpop.0.species.min-gene.5	= 0
-pop.subpop.0.species.max-gene.5 = 2
+pop.subpop.0.species.max-gene.5 = 5
 pop.subpop.0.species.min-gene.6	= 0
-pop.subpop.0.species.max-gene.6 = 9
+pop.subpop.0.species.max-gene.6 = 11
 pop.subpop.0.species.min-gene.7	= 0
 pop.subpop.0.species.max-gene.7 = 3
 pop.subpop.0.species.min-gene.8	= 0
-pop.subpop.0.species.max-gene.8 = 1
-# simian
+pop.subpop.0.species.max-gene.8 = 2
 pop.subpop.0.species.min-gene.9	= 0
-pop.subpop.0.species.max-gene.9 = 2
+pop.subpop.0.species.max-gene.9 = 6
+# simian
 pop.subpop.0.species.min-gene.10 = 0
-pop.subpop.0.species.max-gene.10 = 1
+pop.subpop.0.species.max-gene.10 = 2
 pop.subpop.0.species.min-gene.11 = 0
 pop.subpop.0.species.max-gene.11 = 1
 pop.subpop.0.species.min-gene.12 = 0
