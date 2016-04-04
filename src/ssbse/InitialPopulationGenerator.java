@@ -6,25 +6,45 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Random;
 
 public class InitialPopulationGenerator {
 	
-	private static double percentageOfDefaultConfigurationIndividuals = 100;
+	private static Random random;
+	private static MaxOnes fitnessEvaluator;
+
+	private static double percentageOfDefaultConfigurationIndividuals = 25;
 	
 	private static double defaultConfigurationFitness = 0.2502254755961994;
+	
+	private static HashMap<Integer, Integer> genesPossibleValues;
 	
 	public static void main(String[] args){
 		System.out.println("Creating initial population");
 		
+		random = new Random();
+		fitnessEvaluator = new MaxOnes();
+		
 		ArrayList<int[]> individualsGenomes = new ArrayList<int[]>();
 		ArrayList<Double> individualsFitness = new ArrayList<Double>();
 		
+		genesPossibleValues = getGenesPossibleValues();
+		
+		int[] randomIndividual = null;
+		
 		double populationSize = getPopulationSize();
-		int numberOfDefaultIndividuals = (int) Math.round(populationSize / (percentageOfDefaultConfigurationIndividuals / 100.0));
+		int numberOfDefaultIndividuals = (int) Math.round(populationSize * (percentageOfDefaultConfigurationIndividuals / 100.0));
 		
 		for(int i = 0; i < numberOfDefaultIndividuals; i++){
 			individualsGenomes.add(getDefaultIndividual());
 			individualsFitness.add(defaultConfigurationFitness);
+		}
+		
+		for(int i = numberOfDefaultIndividuals; i < populationSize; i++){
+			randomIndividual = getRandomIndividual();
+			individualsGenomes.add(randomIndividual);
+			individualsFitness.add(fitnessEvaluator.evaluate(randomIndividual));
 		}
 		
 		writeECJPopulationInputFile(individualsGenomes, individualsFitness);
@@ -50,16 +70,57 @@ public class InitialPopulationGenerator {
 			reader.close();
 		}
 		catch(Exception e){
-			System.out.println("Error in reading " + configFileName);
+			System.out.println("Error in getting population size from " + configFileName);
 			e.printStackTrace();
 		}
 		
 		return populationSize;
 	}
 	
+	private static HashMap<Integer, Integer> getGenesPossibleValues(){
+		HashMap<Integer, Integer> genesPossibleValues = new HashMap<Integer, Integer>();
+		String configFileName = "clone.params";
+		String line = null;
+		String[] splittedLine = null;
+
+		try{
+			BufferedReader reader = new BufferedReader(new FileReader(new File(configFileName)));
+			
+			while(reader.ready()){
+				line = reader.readLine();
+
+				if(line.contains("pop.subpop.0.species.max-gene") == true){
+					splittedLine = line.split("=");
+					
+					if(splittedLine[0].split("\\.").length == 6){
+						genesPossibleValues.put(Integer.parseInt(splittedLine[0].split("\\.")[5].replace(" ", "")), Integer.parseInt(splittedLine[1].replace(" ", "")));
+					}
+				}
+			}
+			
+			reader.close();
+		}
+		catch(Exception e){
+			System.out.println("Error in genes possible values from " + configFileName);
+			e.printStackTrace();
+		}
+		
+		return genesPossibleValues;
+	}
+	
 	private static int[] getDefaultIndividual(){
 		int[] defaultIndividual =  {4, 11, 0, 3, 0, 5, 11, 3, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0};
 		return defaultIndividual;
+	}
+	
+	private static int[] getRandomIndividual(){
+		int[] randomIndividual = new int[getDefaultIndividual().length];
+		
+		for(int i = 0; i < randomIndividual.length; i++){
+			randomIndividual[i] = random.nextInt(genesPossibleValues.get(i) + 1);
+		}
+		
+		return randomIndividual;
 	}
 	
 	private static void writeECJPopulationInputFile(ArrayList<int[]> individualsGenomes, ArrayList<Double> individualsFitness){

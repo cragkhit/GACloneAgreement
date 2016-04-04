@@ -58,6 +58,97 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private static String INPUTDIR="/home/mhepaixao/ssbse2016/systems/mockito-master";
 	private static String OUTPUTDIR="/home/mhepaixao/ssbse2016/clones";
 
+	public double evaluate(int[] genome){
+		double fitness = 0;
+
+		System.out.println("[" + genome[0] + "," + genome[1] + "," 
+				+ genome[2] + "," + genome[3] + "," + genome[4] + "," 
+				+ genome[5] + "," + genome[6] + "," + genome[7] + "," 
+				+ genome[8] + "," + genome[9] + "," + genome[10] + "," 
+				+ genome[11] + "," + genome[12] + "," + genome[13] + ","
+				+ genome[14] + "," + genome[15] + "," + genome[16] + ","
+				+ genome[17] + "," + genome[18] + "," + genome[19] + ","
+				+ genome[20] + "," + genome[21] + "," + genome[22] + ","
+				+ genome[23] + "," + genome[24] + "]");
+		System.out.println(
+				ccfxMinToken[genome[0]] + "," 
+				+ ccfxTKS[genome[1]] + "\n" 
+				+ deckardMinToken[genome[2]] + ","
+				+ deckardStride[genome[3]] + ","
+				+ deckardSim[genome[4]] + "\n" 
+				+ nicadMinLine[genome[5]] + "," 
+				+ nicadMaxLine[genome[6]] + "," 
+				+ nicadUpi[genome[7]] + "," 
+				+ nicadBlind[genome[8]] + "," 
+				+ nicadAbstract[genome[9]] + "\n" 
+				+ simianMinLine[genome[10]] + "," 
+				+ simianICB[genome[11]] + ","
+				+ simianID[genome[12]] + "," 
+				+ simianIDC[genome[13]] + "," 
+				+ simianIS[genome[14]] + "," 
+				+ simianISC[genome[15]] + "," 
+				+ simianIN[genome[16]] + ","
+				+ simianIC[genome[17]] + "," 
+				+ simianICC[genome[18]] + "," 
+				+ simianIL[genome[19]] + "," 
+				+ simianISN[genome[20]] + "," 
+				+ simianIM[genome[21]] + "," 
+				+ simianIVN[genome[22]] + ","
+				+ simianBP[genome[23]] + ","
+				+ simianBSB[genome[24]]
+				);
+
+		try {
+			ProcessBuilder pb = new ProcessBuilder(SCRIPT, 
+                    INPUTDIR ,
+                    OUTPUTDIR ,
+                    ccfxMinToken[genome[0]] , 
+					ccfxTKS[genome[1]] , 
+					deckardMinToken[genome[2]] ,
+					deckardStride[genome[3]] ,
+					deckardSim[genome[4]] , 
+					nicadMinLine[genome[5]] , 
+					nicadMaxLine[genome[6]] , 
+					nicadUpi[genome[7]] , 
+					nicadBlind[genome[8]] , 
+					nicadAbstract[genome[9]] , 
+					simianICB[genome[11]] ,
+					simianID[genome[12]] , 
+					simianIDC[genome[13]] , 
+					simianIS[genome[14]] , 
+					simianISC[genome[15]] , 
+					simianIN[genome[16]] ,
+					simianIC[genome[17]] , 
+					simianICC[genome[18]] , 
+					simianIL[genome[19]] , 
+					simianISN[genome[20]] , 
+					simianIM[genome[21]] , 
+					simianIVN[genome[22]] ,
+					simianBP[genome[23]] ,
+					simianBSB[genome[24]] ,
+					simianMinLine[genome[10]]);
+			pb.directory(new File(HOMEDIR));
+			Process p = pb.start();
+
+			BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			StringBuilder builder = new StringBuilder();
+			String line = null;
+			while ((line = reader.readLine()) != null) {
+				builder.append(line);
+				builder.append(System.getProperty("line.separator"));
+			}
+			String result = builder.toString();
+			
+			System.out.println(result);
+			// parse the result to get fitness value
+			fitness = Double.parseDouble(result.trim());
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		
+		return fitness;
+	}
+
 	public void evaluate(final EvolutionState state, final Individual ind, final int subpopulation,
 			final int threadnum) {
 		if (ind.evaluated)
