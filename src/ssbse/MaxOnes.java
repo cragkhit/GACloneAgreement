@@ -56,7 +56,9 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private static String HOMEDIR="/home/mhepaixao/ssbse2016";
 	private static String SCRIPT="scripts/run.sh";
 	private static String INPUTDIR="/home/mhepaixao/ssbse2016/systems/mockito-master";
-	private static String OUTPUTDIR="/home/mhepaixao/ssbse2016/clones";
+	private static String OUTPUTDIR="/home/mhepaixao/ssbse2016/output";
+	private static String CLONEDIR="/home/mhepaixao/ssbse2016/clones";
+	private static String SYSNAME="mockito-master";
 
 	public double evaluate(int[] genome){
 		double fitness = 0;
@@ -126,7 +128,8 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 					simianIVN[genome[22]] ,
 					simianBP[genome[23]] ,
 					simianBSB[genome[24]] ,
-					simianMinLine[genome[10]]);
+					simianMinLine[genome[10]],
+					CLONEDIR, SYSNAME);
 			pb.directory(new File(HOMEDIR));
 			Process p = pb.start();
 
