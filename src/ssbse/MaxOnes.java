@@ -229,7 +229,8 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 					simianIVN[ind2.genome[22]] ,
 					simianBP[ind2.genome[23]] ,
 					simianBSB[ind2.genome[24]] ,
-					simianMinLine[ind2.genome[10]]);
+					simianMinLine[ind2.genome[10]],
+					CLONEDIR, SYSNAME);
 			pb.directory(new File(HOMEDIR));
 			Process p = pb.start();
 
