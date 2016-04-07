@@ -111,6 +111,6 @@ eval.problem		= ssbse.MaxOnes
 #our stuff
 my.homedir = /home/mhepaixao/ssbse2016
 my.script = scripts/run.sh
-my.sysname=mockito-0.9
+my.sysname=x
 my.outputdir = output
 my.clonedir = clones

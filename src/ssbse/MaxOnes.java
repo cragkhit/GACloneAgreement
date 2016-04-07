@@ -2,6 +2,7 @@ package ssbse;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -48,57 +49,88 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 	private String[] simianBP = { "true", "false" };
 	private String[] simianBSB = { "true", "false" };
 	
-	//private static String HOMEDIR="/home/cragkhit/ssbse2016";
-	//private static String SCRIPT="scripts/run.sh";
-	//private static String INPUTDIR="/home/cragkhit/ssbse2016/systems/mockito-master";
-	//private static String OUTPUTDIR="/home/cragkhit/ssbse2016/clones";
+	private static String HOMEDIR;
+	private static String SCRIPT;
+	private static String SYSNAME;
+	private static String INPUTDIR;
+	private static String OUTPUTDIR;
+	private static String CLONEDIR;
+	
+	static{
+		HOMEDIR = getSettingValue("my.homedir");
+		SCRIPT = getSettingValue("my.script");
+		SYSNAME = getSettingValue("my.sysname");
+		INPUTDIR = HOMEDIR + "/systems/" + SYSNAME;
+		OUTPUTDIR = HOMEDIR + "/" + getSettingValue("my.outputdir");
+		CLONEDIR = HOMEDIR + "/" + getSettingValue("my.clonedir");
+    }
+	
+	private static String getSettingValue(String setting){
+		String settingValue = null;
+		String configFileName = "clone.params";
+		String line = null;
 
-	private static String HOMEDIR="/home/mhepaixao/ssbse2016";
-	private static String SCRIPT="scripts/run.sh";
-	private static String INPUTDIR="/home/mhepaixao/ssbse2016/systems/mockito-master";
-	private static String OUTPUTDIR="/home/mhepaixao/ssbse2016/output";
-	private static String CLONEDIR="/home/mhepaixao/ssbse2016/clones";
-	private static String SYSNAME="mockito-master";
+		try{
+			BufferedReader reader = new BufferedReader(new FileReader(new File(configFileName)));
+			
+			while(reader.ready()){
+				line = reader.readLine();
+
+				if(line.contains(setting) == true){
+					settingValue = line.split("=")[1].replace(" ", "");
+					break;
+				}
+			}
+			
+			reader.close();
+		}
+		catch(Exception e){
+			System.out.println("Error in getting sys name from " + configFileName);
+			e.printStackTrace();
+		}
+		
+		return settingValue;
+	}
 
 	public double evaluate(int[] genome){
 		double fitness = 0;
 
-		System.out.println("[" + genome[0] + "," + genome[1] + "," 
-				+ genome[2] + "," + genome[3] + "," + genome[4] + "," 
-				+ genome[5] + "," + genome[6] + "," + genome[7] + "," 
-				+ genome[8] + "," + genome[9] + "," + genome[10] + "," 
-				+ genome[11] + "," + genome[12] + "," + genome[13] + ","
-				+ genome[14] + "," + genome[15] + "," + genome[16] + ","
-				+ genome[17] + "," + genome[18] + "," + genome[19] + ","
-				+ genome[20] + "," + genome[21] + "," + genome[22] + ","
-				+ genome[23] + "," + genome[24] + "]");
-		System.out.println(
-				ccfxMinToken[genome[0]] + "," 
-				+ ccfxTKS[genome[1]] + "\n" 
-				+ deckardMinToken[genome[2]] + ","
-				+ deckardStride[genome[3]] + ","
-				+ deckardSim[genome[4]] + "\n" 
-				+ nicadMinLine[genome[5]] + "," 
-				+ nicadMaxLine[genome[6]] + "," 
-				+ nicadUpi[genome[7]] + "," 
-				+ nicadBlind[genome[8]] + "," 
-				+ nicadAbstract[genome[9]] + "\n" 
-				+ simianMinLine[genome[10]] + "," 
-				+ simianICB[genome[11]] + ","
-				+ simianID[genome[12]] + "," 
-				+ simianIDC[genome[13]] + "," 
-				+ simianIS[genome[14]] + "," 
-				+ simianISC[genome[15]] + "," 
-				+ simianIN[genome[16]] + ","
-				+ simianIC[genome[17]] + "," 
-				+ simianICC[genome[18]] + "," 
-				+ simianIL[genome[19]] + "," 
-				+ simianISN[genome[20]] + "," 
-				+ simianIM[genome[21]] + "," 
-				+ simianIVN[genome[22]] + ","
-				+ simianBP[genome[23]] + ","
-				+ simianBSB[genome[24]]
-				);
+//		System.out.println("[" + genome[0] + "," + genome[1] + "," 
+//				+ genome[2] + "," + genome[3] + "," + genome[4] + "," 
+//				+ genome[5] + "," + genome[6] + "," + genome[7] + "," 
+//				+ genome[8] + "," + genome[9] + "," + genome[10] + "," 
+//				+ genome[11] + "," + genome[12] + "," + genome[13] + ","
+//				+ genome[14] + "," + genome[15] + "," + genome[16] + ","
+//				+ genome[17] + "," + genome[18] + "," + genome[19] + ","
+//				+ genome[20] + "," + genome[21] + "," + genome[22] + ","
+//				+ genome[23] + "," + genome[24] + "]");
+//		System.out.println(
+//				ccfxMinToken[genome[0]] + "," 
+//				+ ccfxTKS[genome[1]] + "\n" 
+//				+ deckardMinToken[genome[2]] + ","
+//				+ deckardStride[genome[3]] + ","
+//				+ deckardSim[genome[4]] + "\n" 
+//				+ nicadMinLine[genome[5]] + "," 
+//				+ nicadMaxLine[genome[6]] + "," 
+//				+ nicadUpi[genome[7]] + "," 
+//				+ nicadBlind[genome[8]] + "," 
+//				+ nicadAbstract[genome[9]] + "\n" 
+//				+ simianMinLine[genome[10]] + "," 
+//				+ simianICB[genome[11]] + ","
+//				+ simianID[genome[12]] + "," 
+//				+ simianIDC[genome[13]] + "," 
+//				+ simianIS[genome[14]] + "," 
+//				+ simianISC[genome[15]] + "," 
+//				+ simianIN[genome[16]] + ","
+//				+ simianIC[genome[17]] + "," 
+//				+ simianICC[genome[18]] + "," 
+//				+ simianIL[genome[19]] + "," 
+//				+ simianISN[genome[20]] + "," 
+//				+ simianIM[genome[21]] + "," 
+//				+ simianIVN[genome[22]] + ","
+//				+ simianBP[genome[23]] + ","
+//				+ simianBSB[genome[24]]
+//				);
 
 		try {
 			ProcessBuilder pb = new ProcessBuilder(SCRIPT, 
@@ -142,7 +174,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 			}
 			String result = builder.toString();
 			
-			System.out.println(result);
+//			System.out.println(result);
 			// parse the result to get fitness value
 			fitness = Double.parseDouble(result.trim());
 		} catch (IOException e) {
@@ -243,7 +275,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 			}
 			String result = builder.toString();
 			
-			System.out.println(result);
+//			System.out.println(result);
 			// parse the result to get fitness value
 			fitness = Double.parseDouble(result.trim());
 		} catch (IOException e) {

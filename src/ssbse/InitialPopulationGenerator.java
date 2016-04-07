@@ -14,10 +14,6 @@ public class InitialPopulationGenerator {
 	private static Random random;
 	private static MaxOnes fitnessEvaluator;
 
-	private static double percentageOfDefaultConfigurationIndividuals = 25;
-	
-	private static double defaultConfigurationFitness = 0.3205615249741492;
-	
 	private static HashMap<Integer, Integer> genesPossibleValues;
 	
 	public static void main(String[] args){
@@ -31,17 +27,16 @@ public class InitialPopulationGenerator {
 		
 		genesPossibleValues = getGenesPossibleValues();
 		
+		int[] defaultIndividual = null;
 		int[] randomIndividual = null;
 		
 		double populationSize = getPopulationSize();
-		int numberOfDefaultIndividuals = (int) Math.round(populationSize * (percentageOfDefaultConfigurationIndividuals / 100.0));
 		
-		for(int i = 0; i < numberOfDefaultIndividuals; i++){
-			individualsGenomes.add(getDefaultIndividual());
-			individualsFitness.add(defaultConfigurationFitness);
-		}
+		defaultIndividual = getDefaultIndividual();
+		individualsGenomes.add(defaultIndividual);
+		individualsFitness.add(fitnessEvaluator.evaluate(defaultIndividual));
 		
-		for(int i = numberOfDefaultIndividuals; i < populationSize; i++){
+		for(int i = 1; i < populationSize; i++){
 			randomIndividual = getRandomIndividual();
 			individualsGenomes.add(randomIndividual);
 			individualsFitness.add(fitnessEvaluator.evaluate(randomIndividual));
