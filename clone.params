@@ -23,7 +23,7 @@ stat.file		= $out.stat
 
 pop.subpops		= 1
 pop.subpop.0		= ec.Subpopulation
-pop.subpop.0.size 		= 100
+pop.subpop.0.size 		= 20
 pop.subpop.0.file=pop.in
 pop.subpop.0.duplicate-retries 	= 0
 pop.subpop.0.species		= ec.vector.IntegerVectorSpecies
