@@ -16,7 +16,7 @@ public class InitialPopulationGenerator {
 
 	private static double percentageOfDefaultConfigurationIndividuals = 25;
 	
-	private static double defaultConfigurationFitness = 0.2502254755961994;
+	private static double defaultConfigurationFitness = 0.3205615249741492;
 	
 	private static HashMap<Integer, Integer> genesPossibleValues;
 	
