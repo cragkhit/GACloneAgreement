@@ -47,7 +47,7 @@ pop.subpop.0.species.max-gene.1 = 37
 pop.subpop.0.species.min-gene.2	= 0
 pop.subpop.0.species.max-gene.2 = 1
 pop.subpop.0.species.min-gene.3	= 0
-pop.subpop.0.species.max-gene.3 = 6
+pop.subpop.0.species.max-gene.3 = 5
 pop.subpop.0.species.min-gene.4	= 0
 pop.subpop.0.species.max-gene.4 = 2
 # NiCad

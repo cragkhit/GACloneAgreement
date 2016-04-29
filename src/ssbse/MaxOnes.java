@@ -23,7 +23,7 @@ public class MaxOnes extends Problem implements SimpleProblemForm {
 			"160", "180", "200", "220", "240", "260", "280", "300" };
 	
 	private String[] deckardMinToken = { "30", "50" };
-	private String[] deckardStride = { "0", "2", "4", "5", "8", "16", "inf"};
+	private String[] deckardStride = { "2", "4", "5", "8", "16", "inf"};
 	private String[] deckardSim = { "0.9", "0.95", "1.00" };
 	
 	private String[] nicadMinLine = { "5", "6", "7", "8", "9", "10" };

@@ -104,7 +104,7 @@ public class InitialPopulationGenerator {
 	}
 	
 	private static int[] getDefaultIndividual(){
-		int[] defaultIndividual =  {4, 11, 0, 3, 0, 5, 11, 3, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0};
+		int[] defaultIndividual =  {4, 11, 0, 2, 0, 5, 11, 3, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0};
 		return defaultIndividual;
 	}
 	
