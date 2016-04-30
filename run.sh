@@ -1,4 +1,15 @@
 release=$1
+
+if [ ! -d results ]; then
+	echo "Couldn't find results folder...creating"
+	mkdir results
+fi
+
+if [ ! -d results/$release ]; then
+	echo "Couldn't find results/$release folder ... creating"
+	mkdir results/$release
+fi
+
 cat orig.params | sed -e s/my.sysname=x/my.sysname=$1/g > clone.params
 ../ssbse2016/clean.sh
 SSBSEDIR=/home/cragkhit/ssbse2016
@@ -15,9 +26,6 @@ count=$((($count-1)/3))
 outname=out.stat.$count
 logname=log.txt.$count
 outputname=output.txt.$count
-
-mkdir results
-mkdir results/$release
 
 mv out.stat results/$release/$outname
 mv $SSBSEDIR/log.txt results/$release/$logname
