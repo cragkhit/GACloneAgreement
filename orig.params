@@ -52,13 +52,13 @@ pop.subpop.0.species.min-gene.4	= 0
 pop.subpop.0.species.max-gene.4 = 2
 # NiCad
 pop.subpop.0.species.min-gene.5	= 0
-pop.subpop.0.species.max-gene.5 = 5
+pop.subpop.0.species.max-gene.5 = 2
 pop.subpop.0.species.min-gene.6	= 0
-pop.subpop.0.species.max-gene.6 = 11
+pop.subpop.0.species.max-gene.6 = 5
 pop.subpop.0.species.min-gene.7	= 0
 pop.subpop.0.species.max-gene.7 = 3
 pop.subpop.0.species.min-gene.8	= 0
-pop.subpop.0.species.max-gene.8 = 2
+pop.subpop.0.species.max-gene.8 = 1
 pop.subpop.0.species.min-gene.9	= 0
 pop.subpop.0.species.max-gene.9 = 6
 # simian
@@ -109,7 +109,7 @@ breed.elite-fraction.0 = 0.25
 eval.problem		= ssbse.MaxOnes
 
 #our stuff
-my.homedir = /home/mhepaixao/ssbse2016
+my.homedir = /home/cragkhit/ssbse2016
 my.script = scripts/run.sh
 my.sysname=x
 my.outputdir = output
