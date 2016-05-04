@@ -1,0 +1,11 @@
+I/O: /datadrive/ssbse2016-2/systems/mockito-1.4 > /datadrive/ssbse2016-2/clones/mockito-1.4 > /datadrive/ssbse2016-2/output
+====> CCFX <====
+CCFX: 80 19
+Found existing file: /datadrive/ssbse2016-2/clones/mockito-1.4/ccfx-GCF_80_19.xml
+====> simian <====
+Found existing file: /datadrive/ssbse2016-2/clones/mockito-1.4/simian-GCF_false_false_true_false_true_true_false_true_true_false_true_false_false_true_6.xml
+====> NiCad4 <====
+Found existing file: /datadrive/ssbse2016-2/clones/mockito-1.4/nicad-GCF_7_200_0.10_none_literal.xml
+====> Deckard <====
+Found existing file: /datadrive/ssbse2016-2/clones/mockito-1.4/deckard-GCF_50_inf_1.00.xml
+=======> finding agreed LOCs <========
