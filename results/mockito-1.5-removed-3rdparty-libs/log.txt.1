@@ -1,0 +1,86 @@
+I/O: /home/cragkhit/ssbse2016/systems/mockito-1.5.1 > /home/cragkhit/ssbse2016/clones/mockito-1.5.1 > /home/cragkhit/ssbse2016/output
+====> CCFX <====
+CCFX: 250 20
+0 [main] DEBUG fileconverters.Main  - GCFFileConverter (v 0.3) ...
+1 [main] DEBUG fileconverters.Main  - Converting ccfx clone report into GCF format...
+44 [main] DEBUG fileconverters.Main  - in converteToGCFMin
+44 [main] DEBUG fileconverters.Main  - Creating GCF file at ccfx-GCF.xml
+45 [main] DEBUG fileconverters.Main  - ccfxtemp.xml is deleted!
+45 [main] DEBUG fileconverters.Main  - Done ...
+====> simian <====
+Simian: /home/cragkhit/projects/cloplag/programs/simian/bin/simian-2.3.35.jar false true true true true true true true false false false true true false -threshold=7
+Simian: /home/cragkhit/projects/cloplag/programs/simian/bin/simian-2.3.35.jar -ignoreCurlyBraces- -ignoreIdentifiers+ -ignoreIdentifierCase+ -ignoreStrings+ -ignoreStringCase+ -ignoreNumbers+ -ignoreCharacters+ -ignoreCharacterCase+ -ignoreLiterals- -ignoreSubtypeNames- -ignoreModifiers- -ignoreVariableNames+ -balanceParentheses+ -balanceSquareBrackets- -threshold=7
+0 [main] DEBUG fileconverters.Main  - GCFFileConverter (v 0.3) ...
+1 [main] DEBUG fileconverters.Main  - Converting simian clone report into GCF format...
+1 [main] DEBUG fileconverters.Main  - Simian
+34 [main] DEBUG fileconverters.Main  - Filename = simian
+39 [main] DEBUG fileconverters.Main  - in converteToGCFMin
+67 [main] DEBUG fileconverters.Main  - Creating GCF file at simian-GCF.xml
+67 [main] DEBUG fileconverters.Main  - simiantemp.xml is deleted!
+67 [main] DEBUG fileconverters.Main  - Done ...
+====> NiCad4 <====
+Found existing file: /home/cragkhit/ssbse2016/clones/mockito-1.5.1/nicad-GCF_6_1000_0.10_blind_none.xml
+====> Deckard <====
+50 16 1.00
+DECKARD--A Tree-Based Code Clone Detection Toolkit. Version 1.3.1
+Copyright (c) 2007-2013. University of California / Singapore Management University
+Distributed under the three-clause BSD license.
+
+==== Configuration checking...Done.
+
+==== Start clone detection ====
+
+Vector generation.../home/cragkhit/projects/cloplag/programs/Deckard-parallel1.3/src/main/jvecgen *.java
+
+vgen: 50 16 ...Done. Log: times/vgen_50_16
+...deleting intermediate vector files...Done
+
+Vector generation done. Logs in times/vgen_*
+Vector files in vectors/vdb_*
+
+Vector clustering and filtering...
+
+= Vector clustering w/ MIN_TOKENS=50, STRIDE=16, SIMILARITY=1.00 ...
+
+grouping: vectors/vdb_50_16 with distance=0...Done grouping 50 16 0. See groups in vectors/vdb_50_16_g[0-9]*_0_30*
+paramsetting: 50 16 1.00 ...Looking for optimal parameters by Setting Parameters for all other groups (may take hours on cygwin but only minutes on Linux...why?)...Done paramsetting 50 16 1.00. Log: times/paramsetting_50_16_1.00_30
+Cluster every vector groups...
+Done clustering. Check log: times/cluster_vdb_50_16_allg_0_30 and times/cluster_vdb_50_16_g[0-9]+_0_30
+Merging all clone reports into clusters/cluster_vdb_50_16_allg_1.00_30 ...Done merging clusters/cluster_vdb_50_16_all_1.00_30. Log: times/merging_50_16_1.00_30
+Post processing clusters/cluster_vdb_50_16_allg_1.00_30 ...Done post-processing clusters/cluster_vdb_50_16_allg_1.00_30. Log: times/post_cluster_vdb_50_16_allg_1.00_30
+Cleaning up all intermediate files...
+...deleting vdb_*_*_g*_*_*, including parameter files ...Done
+...deleting cluster_vdb_*_*_g*_*_* ...Done
+
+Done clustering: 50 16 1.00. See clone reports in clusters/post_cluster_vdb_50_16_allg_1.00_30
+
+Clone detection done. Logs in times/*
+Clone reports in clusters/post_cluster_*
+
+In addition, potential clone-related bugs may be produced by running the scripts:
+(Be careful about the file overwriting and the choice for programming language)
+
+(0) search clone reports and find out suspicious ones for all config combinations: 
+(Note that it may be slow if there are many clone groups)
+    "/home/cragkhit/projects/cloplag/programs/Deckard-parallel1.3/scripts/bugdetect/deckardd.sh"
+
+Or, run "bugfilter" for each clone cluster file, but need to export DECKARD_DIR first:
+    export DECKARD_DIR=/home/cragkhit/projects/cloplag/programs/Deckard-parallel1.3
+(1) search clone reports and find out suspicious ones: 
+    "/home/cragkhit/projects/cloplag/programs/Deckard-parallel1.3/scripts/bugdetect/bugfiltering" "clusters/post_<filename>" java > "clusters/bug_<filename>" 2> "times/bugfiltering_<filename>"
+(2) transform the bug reports to html for easier investigation:
+    "/home/cragkhit/projects/cloplag/programs/Deckard-parallel1.3/src/main/out2html" "clusters/bug_<filename>" > "clusters/bug_<filename>.html"
+
+
+==== All Done for the current 'config' file ====
+
+0 [main] DEBUG fileconverters.Main  - GCFFileConverter (v 0.3) ...
+1 [main] DEBUG fileconverters.Main  - Converting Deckard clone report into GCF format...
+34 [main] DEBUG fileconverters.Main  - in converteToGCFMin
+34 [main] DEBUG fileconverters.Main  - in converteToGCFMin
+deckard_temp.xml is deleted!
+54 [main] DEBUG fileconverters.Main  - Creating GCF file at deckard-GCF.xml
+54 [main] DEBUG fileconverters.Main  - Creating GCF file at deckard-GCF.xml
+54 [main] DEBUG fileconverters.Main  - Done ...
+54 [main] DEBUG fileconverters.Main  - Done ...
+=======> finding agreed LOCs <========
