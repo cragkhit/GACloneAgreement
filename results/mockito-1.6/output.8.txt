@@ -3,16 +3,16 @@ DEBUG - inputDir = /home/cragkhit/ssbse2016/output
 DEBUG - Processing ccfx-GCF.xml
 DEBUG - Number of clone classes (after parsing) = 385
 DEBUG - Processing simian-GCF.xml
-DEBUG - Number of clone classes (after parsing) = 697
+DEBUG - Number of clone classes (after parsing) = 610
 DEBUG - Processing deckard-GCF.xml
 DEBUG - Number of clone classes (after parsing) = 3355
 DEBUG - Processing nicad-GCF.xml
-DEBUG - Number of clone classes (after parsing) = 102
-DEBUG - Agreed 1 tools: 14400 LOCs
-DEBUG - Agreed 2 tools: 7426 LOCs
-DEBUG - Agreed 3 tools: 3285 LOCs
-DEBUG - Agreed 4 tools: 1430 LOCs
-DEBUG - Fitness: 0.42224294487773634
+DEBUG - Number of clone classes (after parsing) = 41
+DEBUG - Agreed 1 tools: 12358 LOCs
+DEBUG - Agreed 2 tools: 9176 LOCs
+DEBUG - Agreed 3 tools: 3343 LOCs
+DEBUG - Agreed 4 tools: 1694 LOCs
+DEBUG - Fitness: 0.4470569417786308
 DEBUG - =============== Clone Fragments ==============
 =============== Clone Fragments ==============
 
