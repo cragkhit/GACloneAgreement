@@ -1,0 +1,11 @@
+I/O: /home/cragkhit/ssbse2016/systems/mockito-1.5.1 > /home/cragkhit/ssbse2016/clones/mockito-1.5.1 > /home/cragkhit/ssbse2016/output
+====> CCFX <====
+CCFX: 70 100
+Found existing file: /home/cragkhit/ssbse2016/clones/mockito-1.5.1/ccfx-GCF_70_100.xml
+====> simian <====
+Found existing file: /home/cragkhit/ssbse2016/clones/mockito-1.5.1/simian-GCF_false_false_true_false_false_false_true_false_false_false_false_false_true_false_6.xml
+====> NiCad4 <====
+Found existing file: /home/cragkhit/ssbse2016/clones/mockito-1.5.1/nicad-GCF_7_600_0.00_none_literal.xml
+====> Deckard <====
+Found existing file: /home/cragkhit/ssbse2016/clones/mockito-1.5.1/deckard-GCF_50_5_0.9.xml
+=======> finding agreed LOCs <========
