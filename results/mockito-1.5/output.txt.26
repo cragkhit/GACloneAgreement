@@ -1,0 +1,8 @@
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/cragkhit/ssbse2016/output
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 369
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 374
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 282
