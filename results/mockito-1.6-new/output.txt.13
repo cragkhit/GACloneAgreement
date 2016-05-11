@@ -1,0 +1,18 @@
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/cragkhit/ssbse2016/output
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 369
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 340
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 378
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 23
+DEBUG - Agreed 1 tools: 8047 LOCs
+DEBUG - Agreed 2 tools: 4060 LOCs
+DEBUG - Agreed 3 tools: 621 LOCs
+DEBUG - Agreed 4 tools: 293 LOCs
+DEBUG - Fitness: 0.3686736809768835
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
