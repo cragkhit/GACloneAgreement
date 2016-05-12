@@ -1,0 +1,140 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.31736281736281735
+2 11 1 4 1 0 2 0 0 6 2 1 1 1 0 0 1 1 0 0 1 0 0 1 0
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3305521844660194
+1 16 1 1 2 1 3 0 0 5 1 1 0 0 0 1 1 0 1 0 0 1 1 0 0
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3305521844660194
+1 16 1 1 2 1 3 0 0 5 1 1 0 0 0 1 1 0 1 0 0 1 1 0 0
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3416748046875
+1 16 1 1 2 1 0 0 0 0 0 1 1 1 1 0 1 0 1 0 1 0 1 0 1
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3432510885341074
+1 16 1 1 2 1 4 0 0 5 1 1 1 0 0 0 0 1 1 0 0 1 1 0 0
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.35573288534229314
+2 16 1 1 2 1 4 0 0 5 1 0 0 0 1 1 0 1 1 0 1 1 1 0 1
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.35573288534229314
+2 16 1 1 2 1 4 0 0 5 1 0 0 0 1 1 0 1 1 0 1 1 1 0 1
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.35774478330658105
+2 15 1 1 2 1 4 3 0 0 2 0 0 1 0 1 1 0 1 0 1 1 1 0 0
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.35865245664739887
+0 15 1 3 2 1 3 3 0 0 2 1 0 1 0 0 0 1 1 1 0 1 1 0 1
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3619489559164733
+2 16 1 1 2 1 4 0 0 5 2 0 0 0 1 1 0 1 1 0 1 1 1 0 0
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.36349848331648127
+2 16 1 1 2 1 4 0 0 5 2 0 0 0 1 0 1 1 1 1 1 1 1 1 1
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.36349848331648127
+2 16 1 1 2 1 4 0 0 5 2 0 0 0 1 0 1 1 1 1 1 1 1 1 1
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.36349848331648127
+2 16 1 1 2 1 4 0 0 5 2 0 0 0 1 0 1 1 1 1 1 1 1 1 1
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.36349848331648127
+2 16 1 1 2 1 4 0 0 5 2 0 0 0 1 0 1 1 1 1 1 1 1 1 1
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3675771971496437
+2 16 1 1 2 0 4 2 0 0 2 0 0 1 1 0 0 0 1 1 0 1 0 1 1
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3675771971496437
+2 16 1 1 2 0 4 2 0 0 2 0 0 1 1 0 0 0 1 1 0 1 0 1 1
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3675771971496437
+2 16 1 1 2 0 4 2 0 0 2 0 0 1 1 0 0 0 1 1 0 1 0 1 1
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3778836509528586
+2 16 1 3 2 0 4 0 1 6 2 0 0 0 1 1 0 0 1 0 1 1 1 0 1
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3778836509528586
+2 16 1 3 2 0 4 0 1 6 2 0 0 0 1 1 0 0 1 0 1 1 1 0 0
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.3778836509528586
+2 16 1 3 2 0 4 0 1 6 2 0 0 0 1 1 0 0 1 0 1 1 1 0 1
