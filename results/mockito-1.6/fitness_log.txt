@@ -1,0 +1,1458 @@
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Agreed 1 tools: 780 LOCs
+DEBUG - Agreed 2 tools: 92 LOCs
+DEBUG - Agreed 3 tools: 28 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4020618556701031
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 588 LOCs
+DEBUG - Agreed 2 tools: 90 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3754437869822485
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 48
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 7
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 2402 LOCs
+DEBUG - Agreed 2 tools: 143 LOCs
+DEBUG - Agreed 3 tools: 18 LOCs
+DEBUG - Agreed 4 tools: 162 LOCs
+DEBUG - Fitness: 0.3110091743119266
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 654 LOCs
+DEBUG - Agreed 2 tools: 91 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3665021929824561
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 790 LOCs
+DEBUG - Agreed 2 tools: 132 LOCs
+DEBUG - Agreed 3 tools: 44 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4090909090909091
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 85
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 14
+DEBUG - Agreed 1 tools: 2757 LOCs
+DEBUG - Agreed 2 tools: 220 LOCs
+DEBUG - Agreed 3 tools: 223 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.30203125
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 584 LOCs
+DEBUG - Agreed 2 tools: 119 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4423076923076923
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 628 LOCs
+DEBUG - Agreed 2 tools: 115 LOCs
+DEBUG - Agreed 3 tools: 28 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4291044776119403
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 39
+DEBUG - Agreed 1 tools: 1192 LOCs
+DEBUG - Agreed 2 tools: 131 LOCs
+DEBUG - Agreed 3 tools: 96 LOCs
+DEBUG - Agreed 4 tools: 175 LOCs
+DEBUG - Fitness: 0.3829987452948557
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 1071 LOCs
+DEBUG - Agreed 2 tools: 115 LOCs
+DEBUG - Agreed 3 tools: 86 LOCs
+DEBUG - Agreed 4 tools: 123 LOCs
+DEBUG - Fitness: 0.36756272401433693
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 35
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 5
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 691 LOCs
+DEBUG - Agreed 2 tools: 102 LOCs
+DEBUG - Agreed 3 tools: 72 LOCs
+DEBUG - Agreed 4 tools: 148 LOCs
+DEBUG - Fitness: 0.4202862783810464
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 51
+DEBUG - Agreed 1 tools: 1229 LOCs
+DEBUG - Agreed 2 tools: 173 LOCs
+DEBUG - Agreed 3 tools: 94 LOCs
+DEBUG - Agreed 4 tools: 175 LOCs
+DEBUG - Fitness: 0.38255535607420704
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 73
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 1702 LOCs
+DEBUG - Agreed 2 tools: 82 LOCs
+DEBUG - Agreed 3 tools: 88 LOCs
+DEBUG - Agreed 4 tools: 169 LOCs
+DEBUG - Fitness: 0.34370406663400294
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Agreed 1 tools: 575 LOCs
+DEBUG - Agreed 2 tools: 75 LOCs
+DEBUG - Agreed 3 tools: 37 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.43498817966903075
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Agreed 1 tools: 540 LOCs
+DEBUG - Agreed 2 tools: 56 LOCs
+DEBUG - Agreed 3 tools: 165 LOCs
+DEBUG - Agreed 4 tools: 22 LOCs
+DEBUG - Fitness: 0.3943167305236271
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 13
+DEBUG - Agreed 1 tools: 552 LOCs
+DEBUG - Agreed 2 tools: 128 LOCs
+DEBUG - Agreed 3 tools: 42 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.45050618672665915
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 638 LOCs
+DEBUG - Agreed 2 tools: 167 LOCs
+DEBUG - Agreed 3 tools: 0 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3018633540372671
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 17
+DEBUG - Agreed 1 tools: 678 LOCs
+DEBUG - Agreed 2 tools: 134 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4254170755642787
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 600 LOCs
+DEBUG - Agreed 2 tools: 90 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3736872812135356
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Agreed 1 tools: 781 LOCs
+DEBUG - Agreed 2 tools: 79 LOCs
+DEBUG - Agreed 3 tools: 39 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.3998109640831758
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 29
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 7
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 1008 LOCs
+DEBUG - Agreed 2 tools: 124 LOCs
+DEBUG - Agreed 3 tools: 42 LOCs
+DEBUG - Agreed 4 tools: 169 LOCs
+DEBUG - Fitness: 0.3830975428145942
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 504 LOCs
+DEBUG - Agreed 2 tools: 63 LOCs
+DEBUG - Agreed 3 tools: 159 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.381198347107438
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 5
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 586 LOCs
+DEBUG - Agreed 2 tools: 98 LOCs
+DEBUG - Agreed 3 tools: 161 LOCs
+DEBUG - Agreed 4 tools: 22 LOCs
+DEBUG - Fitness: 0.39013840830449825
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 13
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 18
+DEBUG - Agreed 1 tools: 957 LOCs
+DEBUG - Agreed 2 tools: 133 LOCs
+DEBUG - Agreed 3 tools: 32 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.3853762606671839
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 29
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 14
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 1175 LOCs
+DEBUG - Agreed 2 tools: 125 LOCs
+DEBUG - Agreed 3 tools: 42 LOCs
+DEBUG - Agreed 4 tools: 169 LOCs
+DEBUG - Fitness: 0.3684645929847783
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 531 LOCs
+DEBUG - Agreed 2 tools: 115 LOCs
+DEBUG - Agreed 3 tools: 28 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.44976218787158145
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Agreed 1 tools: 846 LOCs
+DEBUG - Agreed 2 tools: 42 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3390995260663507
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 525 LOCs
+DEBUG - Agreed 2 tools: 93 LOCs
+DEBUG - Agreed 3 tools: 19 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.44095477386934673
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 48
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 2452 LOCs
+DEBUG - Agreed 2 tools: 92 LOCs
+DEBUG - Agreed 3 tools: 67 LOCs
+DEBUG - Agreed 4 tools: 171 LOCs
+DEBUG - Fitness: 0.3164090582314881
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 588 LOCs
+DEBUG - Agreed 2 tools: 90 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3754437869822485
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 538 LOCs
+DEBUG - Agreed 2 tools: 66 LOCs
+DEBUG - Agreed 3 tools: 19 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.43574168797953966
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 588 LOCs
+DEBUG - Agreed 2 tools: 90 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3754437869822485
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 73
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 5
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 18
+DEBUG - Agreed 1 tools: 1747 LOCs
+DEBUG - Agreed 2 tools: 157 LOCs
+DEBUG - Agreed 3 tools: 68 LOCs
+DEBUG - Agreed 4 tools: 169 LOCs
+DEBUG - Fitness: 0.34341429238673515
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 69
+DEBUG - Agreed 1 tools: 1524 LOCs
+DEBUG - Agreed 2 tools: 212 LOCs
+DEBUG - Agreed 3 tools: 97 LOCs
+DEBUG - Agreed 4 tools: 175 LOCs
+DEBUG - Fitness: 0.3659113545816733
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 35
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 18
+DEBUG - Agreed 1 tools: 916 LOCs
+DEBUG - Agreed 2 tools: 103 LOCs
+DEBUG - Agreed 3 tools: 164 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3410819949281488
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 17
+DEBUG - Agreed 1 tools: 736 LOCs
+DEBUG - Agreed 2 tools: 106 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.35901883052527256
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 5
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 837 LOCs
+DEBUG - Agreed 2 tools: 46 LOCs
+DEBUG - Agreed 3 tools: 19 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.382186616399623
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 584 LOCs
+DEBUG - Agreed 2 tools: 119 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4423076923076923
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 284
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 4168 LOCs
+DEBUG - Agreed 2 tools: 92 LOCs
+DEBUG - Agreed 3 tools: 88 LOCs
+DEBUG - Agreed 4 tools: 171 LOCs
+DEBUG - Fitness: 0.2932064616065501
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 73
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 3190 LOCs
+DEBUG - Agreed 2 tools: 107 LOCs
+DEBUG - Agreed 3 tools: 207 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.287171803652968
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 14
+DEBUG - Agreed 1 tools: 564 LOCs
+DEBUG - Agreed 2 tools: 128 LOCs
+DEBUG - Agreed 3 tools: 42 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.44783573806881244
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Agreed 1 tools: 525 LOCs
+DEBUG - Agreed 2 tools: 93 LOCs
+DEBUG - Agreed 3 tools: 19 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.44095477386934673
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 21
+DEBUG - Agreed 1 tools: 1164 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 89 LOCs
+DEBUG - Agreed 4 tools: 175 LOCs
+DEBUG - Fitness: 0.3827619663648124
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 661 LOCs
+DEBUG - Agreed 2 tools: 142 LOCs
+DEBUG - Agreed 3 tools: 76 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.33361774744027306
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Agreed 1 tools: 575 LOCs
+DEBUG - Agreed 2 tools: 75 LOCs
+DEBUG - Agreed 3 tools: 37 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.43498817966903075
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 17
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 2
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 29
+DEBUG - Agreed 1 tools: 1106 LOCs
+DEBUG - Agreed 2 tools: 155 LOCs
+DEBUG - Agreed 3 tools: 98 LOCs
+DEBUG - Agreed 4 tools: 76 LOCs
+DEBUG - Fitness: 0.35087108013937285
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 3
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 602 LOCs
+DEBUG - Agreed 2 tools: 132 LOCs
+DEBUG - Agreed 3 tools: 24 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.43405405405405406
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 11
+DEBUG - Agreed 1 tools: 844 LOCs
+DEBUG - Agreed 2 tools: 112 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.34928762243989314
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 185
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 4091 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 198 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.27915815747674155
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Agreed 1 tools: 575 LOCs
+DEBUG - Agreed 2 tools: 75 LOCs
+DEBUG - Agreed 3 tools: 37 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.43498817966903075
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 8
+DEBUG - Agreed 1 tools: 624 LOCs
+DEBUG - Agreed 2 tools: 88 LOCs
+DEBUG - Agreed 3 tools: 32 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.429198682766191
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 5
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 546 LOCs
+DEBUG - Agreed 2 tools: 130 LOCs
+DEBUG - Agreed 3 tools: 24 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4457900807381776
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 57
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 20
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 7
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 2073 LOCs
+DEBUG - Agreed 2 tools: 136 LOCs
+DEBUG - Agreed 3 tools: 90 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.3328264395782644
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 48
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 13
+DEBUG - Agreed 1 tools: 2332 LOCs
+DEBUG - Agreed 2 tools: 274 LOCs
+DEBUG - Agreed 3 tools: 77 LOCs
+DEBUG - Agreed 4 tools: 171 LOCs
+DEBUG - Fitness: 0.3324281709880869
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 101
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 3623 LOCs
+DEBUG - Agreed 2 tools: 107 LOCs
+DEBUG - Agreed 3 tools: 72 LOCs
+DEBUG - Agreed 4 tools: 171 LOCs
+DEBUG - Fitness: 0.29807450289453813
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 530 LOCs
+DEBUG - Agreed 2 tools: 118 LOCs
+DEBUG - Agreed 3 tools: 40 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.4543859649122807
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 58
+DEBUG - Agreed 1 tools: 1476 LOCs
+DEBUG - Agreed 2 tools: 253 LOCs
+DEBUG - Agreed 3 tools: 175 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3291754201680672
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Agreed 1 tools: 588 LOCs
+DEBUG - Agreed 2 tools: 90 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3754437869822485
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Agreed 1 tools: 801 LOCs
+DEBUG - Agreed 2 tools: 75 LOCs
+DEBUG - Agreed 3 tools: 37 LOCs
+DEBUG - Agreed 4 tools: 159 LOCs
+DEBUG - Fitness: 0.39598880597014924
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 56
+DEBUG - Agreed 1 tools: 1307 LOCs
+DEBUG - Agreed 2 tools: 173 LOCs
+DEBUG - Agreed 3 tools: 94 LOCs
+DEBUG - Agreed 4 tools: 175 LOCs
+DEBUG - Fitness: 0.3766437964551172
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Agreed 1 tools: 846 LOCs
+DEBUG - Agreed 2 tools: 42 LOCs
+DEBUG - Agreed 3 tools: 167 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3390995260663507
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 3
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 547 LOCs
+DEBUG - Agreed 2 tools: 127 LOCs
+DEBUG - Agreed 3 tools: 12 LOCs
+DEBUG - Agreed 4 tools: 167 LOCs
+DEBUG - Fitness: 0.44109026963657677
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 22
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 64
+DEBUG - Agreed 1 tools: 1505 LOCs
+DEBUG - Agreed 2 tools: 251 LOCs
+DEBUG - Agreed 3 tools: 175 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3278094251683066
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 276
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 15
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 0
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 84
+DEBUG - Agreed 1 tools: 3930 LOCs
+DEBUG - Agreed 2 tools: 735 LOCs
+DEBUG - Agreed 3 tools: 291 LOCs
+DEBUG - Agreed 4 tools: 0 LOCs
+DEBUG - Fitness: 0.3164346246973366
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 62
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 51
+DEBUG - Agreed 1 tools: 2941 LOCs
+DEBUG - Agreed 2 tools: 404 LOCs
+DEBUG - Agreed 3 tools: 131 LOCs
+DEBUG - Agreed 4 tools: 180 LOCs
+DEBUG - Fitness: 0.3324671772428884
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
+DEBUG - Running AgreedLOC v. 0.1
+DEBUG - inputDir = /home/mhepaixao/ssbse2016/output
+DEBUG - Processing deckard-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 9
+DEBUG - Processing nicad-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 6
+DEBUG - Processing ccfx-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 4
+DEBUG - Processing simian-GCF.xml
+DEBUG - Number of clone classes (after parsing) = 10
+DEBUG - Agreed 1 tools: 528 LOCs
+DEBUG - Agreed 2 tools: 82 LOCs
+DEBUG - Agreed 3 tools: 177 LOCs
+DEBUG - Agreed 4 tools: 22 LOCs
+DEBUG - Fitness: 0.40512978986402964
+DEBUG - =============== Clone Fragments ==============
+=============== Clone Fragments ==============
+
