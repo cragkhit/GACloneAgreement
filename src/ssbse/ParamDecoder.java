@@ -1,26 +1,26 @@
 package ssbse;
 
 public class ParamDecoder {
-	private static String[] ccfxMinToken = { 
-			"10", "20", "30", "40", "50", "60", "70", "80", "90", "100", 
-			"110", "120", "130", "140", "150", "160", "170", "180", "190", "200", 
+	private static String[] ccfxMinToken = {
+			"10", "20", "30", "40", "50", "60", "70", "80", "90", "100",
+			"110", "120", "130", "140", "150", "160", "170", "180", "190", "200",
 			"210", "220", "230", "240", "250", "260", "270", "280", "290", "300" };
-	private static String[] ccfxTKS = { 
-			"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
-			"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
-			"30", "40", "50", "60", "70", "80", "90", "100", "120", "140", 
+	private static String[] ccfxTKS = {
+			"1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+			"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+			"30", "40", "50", "60", "70", "80", "90", "100", "120", "140",
 			"160", "180", "200", "220", "240", "260", "280", "300" };
-	
+
 	private static String[] deckardMinToken = { "30", "50" };
 	private static String[] deckardStride = { "2", "4", "5", "8", "16", "inf"};
 	private static String[] deckardSim = { "0.9", "0.95", "1.00" };
-	
+
 	private static String[] nicadMinLine = { "5", "6", "7" };
 	private static String[] nicadMaxLine = { "100", "200", "400", "600", "800", "1000" };
 	private static String[] nicadUpi = { "0.00", "0.10", "0.20", "0.30" };
 	private static String[] nicadBlind = { "none", "blind" };
 	private static String[] nicadAbstract = { "none", "block", "declaration", "statement", "expression", "condition", "literal" };
-	
+
 //	private static String[] nicadBlind = { "0", "1" };
 //	private static String[] nicadAbstract = { "0", "1", "2", "3", "4", "5", "6" };
 
@@ -55,17 +55,17 @@ public class ParamDecoder {
 	private static String[] simianIVN = { "true", "false" };
 	private static String[] simianBP = { "true", "false" };
 	private static String[] simianBSB = { "true", "false" };
-	
+
 	public static void main(String[] args) {
 		int[] genome = new int[25]; // {5, 27, 1, 0, 2, 5, 9, 3, 0, 2, 2, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1};
 		for (int i=0; i<25; i++) {
 			genome[i] = Integer.valueOf(args[i]);
 		}
-		
-//		System.out.println("[" + genome[0] + "," + genome[1] + "," 
-//				+ genome[2] + "," + genome[3] + "," + genome[4] + "," 
-//				+ genome[5] + "," + genome[6] + "," + genome[7] + "," 
-//				+ genome[8] + "," + genome[9] + "," + genome[10] + "," 
+
+//		System.out.println("[" + genome[0] + "," + genome[1] + ","
+//				+ genome[2] + "," + genome[3] + "," + genome[4] + ","
+//				+ genome[5] + "," + genome[6] + "," + genome[7] + ","
+//				+ genome[8] + "," + genome[9] + "," + genome[10] + ","
 //				+ genome[11] + "," + genome[12] + "," + genome[13] + ","
 //				+ genome[14] + "," + genome[15] + "," + genome[16] + ","
 //				+ genome[17] + "," + genome[18] + "," + genome[19] + ","
@@ -73,61 +73,61 @@ public class ParamDecoder {
 //				+ genome[23] + "," + genome[24] + "]");
 		if (args[25].equals("p"))
 			System.out.println(
-					ccfxMinToken[genome[0]] + " " 
+					ccfxMinToken[genome[0]] + " "
 					+ ccfxTKS[genome[1]] + " "
 					+ deckardMinToken[genome[2]] + " "
 					+ deckardStride[genome[3]] + " "
-					+ deckardSim[genome[4]] + " " 
-					+ nicadMinLine[genome[5]] + " " 
-					+ nicadMaxLine[genome[6]] + " " 
-					+ nicadUpi[genome[7]] + " " 
-					+ nicadBlind[genome[8]] + " " 
-					+ nicadAbstract[genome[9]] + " " 
+					+ deckardSim[genome[4]] + " "
+					+ nicadMinLine[genome[5]] + " "
+					+ nicadMaxLine[genome[6]] + " "
+					+ nicadUpi[genome[7]] + " "
+					+ nicadBlind[genome[8]] + " "
+					+ nicadAbstract[genome[9]] + " "
 					+ simianICB[genome[11]] + " "
-					+ simianID[genome[12]] + " " 
-					+ simianIDC[genome[13]] + " " 
-					+ simianIS[genome[14]] + " " 
-					+ simianISC[genome[15]] + " " 
+					+ simianID[genome[12]] + " "
+					+ simianIDC[genome[13]] + " "
+					+ simianIS[genome[14]] + " "
+					+ simianISC[genome[15]] + " "
 					+ simianIN[genome[16]] + " "
-					+ simianIC[genome[17]] + " " 
-					+ simianICC[genome[18]] + " " 
-					+ simianIL[genome[19]] + " " 
-					+ simianISN[genome[20]] + " " 
-					+ simianIM[genome[21]] + " " 
+					+ simianIC[genome[17]] + " "
+					+ simianICC[genome[18]] + " "
+					+ simianIL[genome[19]] + " "
+					+ simianISN[genome[20]] + " "
+					+ simianIM[genome[21]] + " "
 					+ simianIVN[genome[22]] + " "
 					+ simianBP[genome[23]] + " "
 					+ simianBSB[genome[24]] + " "
-					+ simianMinLine[genome[10]] 
+					+ simianMinLine[genome[10]]
 					);
 		else if (args[25].equals("f"))
 			System.out.println(
-					ccfxMinToken[genome[0]] + ", " 
+					ccfxMinToken[genome[0]] + ", "
 					+ ccfxTKS[genome[1]] + ", "
 					+ deckardMinToken[genome[2]] + ", "
 					+ deckardStride[genome[3]] + ", "
-					+ deckardSim[genome[4]] + ", " 
-					+ nicadMinLine[genome[5]] + ", " 
-					+ nicadMaxLine[genome[6]] + ", " 
-					+ nicadUpi[genome[7]] + ", " 
-					+ nicadBlind[genome[8]] + ", " 
-					+ nicadAbstract[genome[9]] + " , " 
+					+ deckardSim[genome[4]] + ", "
+					+ nicadMinLine[genome[5]] + ", "
+					+ nicadMaxLine[genome[6]] + ", "
+					+ nicadUpi[genome[7]] + ", "
+					+ nicadBlind[genome[8]] + ", "
+					+ nicadAbstract[genome[9]] + ", " 
 					+ simianICB[genome[11]] + ", "
-					+ simianID[genome[12]] + ", " 
-					+ simianIDC[genome[13]] + ", " 
-					+ simianIS[genome[14]] + ", " 
-					+ simianISC[genome[15]] + ", " 
+					+ simianID[genome[12]] + ", "
+					+ simianIDC[genome[13]] + ", "
+					+ simianIS[genome[14]] + ", "
+					+ simianISC[genome[15]] + ", "
 					+ simianIN[genome[16]] + ", "
-					+ simianIC[genome[17]] + ", " 
-					+ simianICC[genome[18]] + ", " 
-					+ simianIL[genome[19]] + ", " 
-					+ simianISN[genome[20]] + ", " 
-					+ simianIM[genome[21]] + ", " 
+					+ simianIC[genome[17]] + ", "
+					+ simianICC[genome[18]] + ", "
+					+ simianIL[genome[19]] + ", "
+					+ simianISN[genome[20]] + ", "
+					+ simianIM[genome[21]] + ", "
 					+ simianIVN[genome[22]] + ", "
 					+ simianBP[genome[23]] + ", "
 					+ simianBSB[genome[24]] + ", "
-					+ simianMinLine[genome[10]] 
+					+ simianMinLine[genome[10]]
 					);
-		else 
+		else
 			System.out.println("Wrong mode!");
 	}
 }
