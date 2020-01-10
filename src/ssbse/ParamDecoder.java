@@ -20,8 +20,12 @@ public class ParamDecoder {
 	private static String[] nicadUpi = { "0.00", "0.10", "0.20", "0.30" };
 	private static String[] nicadBlind = { "none", "blind" };
 	private static String[] nicadAbstract = { "none", "block", "declaration", "statement", "expression", "condition", "literal" };
+	
+//	private static String[] nicadBlind = { "0", "1" };
+//	private static String[] nicadAbstract = { "0", "1", "2", "3", "4", "5", "6" };
 
 	private static String[] simianMinLine = { "5", "6", "7" };
+
 //	private static String[] simianICB = { "1", "0" };
 //	private static String[] simianID = { "1", "0" };
 //	private static String[] simianIDC = { "1", "0" };
@@ -36,7 +40,7 @@ public class ParamDecoder {
 //	private static String[] simianIVN = { "1", "0" };
 //	private static String[] simianBP = { "1", "0" };
 //	private static String[] simianBSB = { "1", "0" };
-
+//
 	private static String[] simianICB = { "true", "false" };
 	private static String[] simianID = { "true", "false" };
 	private static String[] simianIDC = { "true", "false" };
@@ -98,15 +102,15 @@ public class ParamDecoder {
 		else if (args[25].equals("f"))
 			System.out.println(
 					ccfxMinToken[genome[0]] + ", " 
-					+ ccfxTKS[genome[1]] + " & "
+					+ ccfxTKS[genome[1]] + ", "
 					+ deckardMinToken[genome[2]] + ", "
 					+ deckardStride[genome[3]] + ", "
-					+ deckardSim[genome[4]] + " & " 
+					+ deckardSim[genome[4]] + ", " 
 					+ nicadMinLine[genome[5]] + ", " 
 					+ nicadMaxLine[genome[6]] + ", " 
 					+ nicadUpi[genome[7]] + ", " 
 					+ nicadBlind[genome[8]] + ", " 
-					+ nicadAbstract[genome[9]] + " & " 
+					+ nicadAbstract[genome[9]] + " , " 
 					+ simianICB[genome[11]] + ", "
 					+ simianID[genome[12]] + ", " 
 					+ simianIDC[genome[13]] + ", " 
